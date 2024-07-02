@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #833AB4;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 0 0 1em;
+}
+
+.btn {
+    background: #F58529;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 0.25em;
+}
+
+#features, #pricing, #contact {
+    padding: 2em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.feature {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+.pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.tier {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input, form textarea {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+}
+
+footer {
+    background: #833AB4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
